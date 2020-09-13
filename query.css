@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1440px) {
+}
+/*Big Tablets to 1200px (widths smaller than 1140 row)*/
+@media only screen and (max-width: 1200px) {
+}
+
+/*Small tablet to big tablet: 768px - 1023px*/
+@media only screen and (max-width: 1023px) {
+  .track .container img {
+    width: 400px;
+    height: 400px;
+  }
+  .track .container {
+    align-items: center;
+    padding: 20px;
+  }
+
+  .track .container p {
+    width: 100%;
+  }
+  .access img {
+    width: 700px;
+  }
+  .companies {
+    margin: 20px;
+  }
+  .companies img {
+    margin-right: 30px;
+    width: 100px;
+  }
+}
+
+/*Small phones to small tablet: 481px - 767px*/
+@media only screen and (max-width: 767px) {
+  section {
+    padding: 20px;
+    margin-top: 40px;
+  }
+  section p {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 160%;
+    margin-bottom: 30px;
+  }
+  header p {
+    width: 100%;
+    text-align: center;
+    font-size: 90%;
+  }
+  .btn-container {
+    width: 80%;
+  }
+  .btn-container .btn {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .track p {
+    width: 100%;
+  }
+
+  .track .container {
+    flex-direction: column;
+  }
+  .track .container img {
+    width: 100%;
+  }
+  .track .container ul li {
+    text-align: center;
+  }
+  .access img {
+    width: 100%;
+  }
+
+  .perks {
+    flex-direction: column;
+  }
+  .perks-box {
+    margin-bottom: 30px;
+  }
+
+  .companies {
+    flex-direction: column;
+  }
+  .companies img {
+    margin: 40px auto;
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  footer .left {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer img {
+    margin: 20px auto;
+  }
+
+  footer .right {
+    margin: 0 auto;
+  }
+}
+
+/*Small phones from 0-480px*/
+@media only screen and (max-width: 480px) {
+}
